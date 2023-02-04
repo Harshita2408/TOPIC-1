@@ -1,0 +1,41 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+.one
+{
+    padding: 80px;
+    text-align: center;
+    background-color: rgba(31, 192, 165);
+    color: white;
+    font-size: 30px;
+}
+.two
+{
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+.left
+{
+    -ms-flex: 30%; 
+    flex: 30%;
+    padding: 20px;
+    background-color: rgba(31, 192, 165, 0.3);
+}
+.right
+{
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: rgba(31, 192, 165, 0.6);
+    padding: 20px;
+}
+.three
+{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(31, 192, 165);
+    font-size: 20px;
+}
